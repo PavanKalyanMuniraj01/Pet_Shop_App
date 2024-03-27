@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: #b4d43d;
+        }
+        .contact-details {
+            padding: 20px;
+            border: 1px solid #3a0202;
+            border-radius: 5px;
+            background-color: #658d44; /* Change background color */
+        }
+        .contact-image {
+            text-align: center;
+        }
+        .contact-image img {
+            max-width: 100%; /* Adjust maximum width */
+            max-height: 300px; /* Adjust maximum height */
+            display: block;
+            margin: auto; /* Center the image horizontally */
+            margin-bottom: 30px;
+        }
+        .contact-details h2 {
+            margin-top: 0;
+        }
+        .contact-details ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .contact-details ul li {
+            margin-bottom: 10px;
+        }
+        .contact-details ul li i {
+            margin-right: 10px;
+        }
+        .contact-details form {
+            margin-top: 20px;
+        }
+        .contact-details form input,
+        .contact-details form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-details form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-details form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Your header code here -->
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-details">
+                        <h2>Contact Details</h2>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</li>
+                            <li><i class="fas fa-phone"></i> +1234567890</li>
+                            <li><i class="fas fa-envelope"></i> info@example.com</li>
+                        </ul>
+                        <form action="#" method="POST">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-image">
+                        <img src="dog4.jpeg" alt="Contact Image">
+                        <img src="dog5.jpeg" alt="Contact Image 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Your footer code here -->
+    </footer>
+
+    <!-- JavaScript code here -->
+
+</body>
+</html>
